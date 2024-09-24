@@ -13,22 +13,19 @@
 <body>
     <header>
         <nav>
-            <div class="logo">
-                <img src="image 1.png" alt="logo" class="img_logo">
-            </div>
-            <div class="list">
-                <ul>
-                    <li class="list-item"><a href="#">Home</a></li>
-                    <li class="list-item"><a href="#">About</a></li>
-                    <li class="list-item"><a href="#">Team</a></li>
-                    <li class="list-item"><a href="#">Services</a></li>
-                    <li class="list-item"><a href="#">Policies</a></li>
-
-                </ul>
-            </div>
-            <div class="btn__contact">
-                <button class="btn">Contact</button>
-
+            <div class="logo"><img src="image 1.png" alt=""></div>
+            <ul id="menu" class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Policies</a></li>
+                <li><a href="#" class="contact-btn">Contact</a></li>
+            </ul>
+            <div class="burger" onclick="toggleMenu()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
             </div>
         </nav>
     </header>
@@ -169,6 +166,7 @@
         
     </footer>
     <p class="data">© 2023 Longboat Rönd all right reserved</p>
+    <script src="script.js"></script>
 </body>
 
 </html>
